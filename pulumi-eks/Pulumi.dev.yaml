@@ -1,0 +1,7 @@
+config:
+  aws:region: eu-west-1
+  pulumi-eks:desiredClusterSize: "3"
+  pulumi-eks:eksNodeInstanceType: t3.medium
+  pulumi-eks:maxClusterSize: "6"
+  pulumi-eks:minClusterSize: "3"
+  pulumi-eks:vpcNetworkCidr: 10.0.0.0/16
